@@ -1,0 +1,79 @@
+# =====================================
+# 🐍 FASTAPI / PYTHON BACKEND
+# =====================================
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# SQLite / Database files
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =====================================
+# ⚛️ REACT FRONTEND (inside /frontend)
+# =====================================
+
+# Dependencies
+frontend/node_modules/
+
+# Production build
+frontend/build/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Cache
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.eslintcache
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Editor / System
+frontend/.vscode/
+frontend/.idea/
+frontend/*.swp
+frontend/.DS_Store
+frontend/Thumbs.db
+
