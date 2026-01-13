@@ -103,3 +103,4 @@ def delete_item(id : int, db : Session = Depends(get_db)):
     #     if products[i].name == name:
     #         del products[i]
     
+    #         return "Item deleted successfully..."
